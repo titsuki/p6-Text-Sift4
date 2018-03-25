@@ -11,13 +11,13 @@ sub sift4(Str $lhs, Str $rhs, Int :$max-offset = 5 --> Int:D) is export {
         return $lhs.chars;
     }
 
-    my Int $lhs-len = $lhs.chars;
-    my Int $rhs-len = $rhs.chars;
+    my int $lhs-len = $lhs.chars;
+    my int $rhs-len = $rhs.chars;
 
-    my Int $lhs-cursor = 0;
-    my Int $rhs-cursor = 0;
-    my Int $largest-common-subsequence = 0;
-    my Int $local-common-substring = 0;
+    my int $lhs-cursor = 0;
+    my int $rhs-cursor = 0;
+    my int $largest-common-subsequence = 0;
+    my int $local-common-substring = 0;
 
     while ($lhs-cursor < $lhs-len) && ($rhs-cursor < $rhs-len) {
         if $lhs.substr($lhs-cursor,1) eq $rhs.substr($rhs-cursor,1) {
