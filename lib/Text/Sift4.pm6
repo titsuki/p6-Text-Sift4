@@ -61,9 +61,9 @@ Text::Sift4 - A Perl 6 Sift4 (Super Fast and Accurate string distance algorithm)
 
   use Text::Sift4;
 
-  say sift4("abc", "ab") # OUTPUT: «1␤»
-  say sift4("ab", "abc") # OUTPUT: «1␤»
-  say sift4("abc", "xxx") # OUTPUT: «3␤»
+  say sift4("abc", "ab");  # OUTPUT: «1␤»
+  say sift4("ab", "abc");  # OUTPUT: «1␤»
+  say sift4("abc", "xxx"); # OUTPUT: «3␤»
 
 =head1 DESCRIPTION
 
