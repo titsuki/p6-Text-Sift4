@@ -78,7 +78,7 @@ Defined as:
 
   sub sift4(Str $lhs, Str $rhs, Int :$max-offset = 5 --> Int:D) is export
 
-returns approximate of Levenshtein Distance.
+returns approximation of Levenshtein Distance.
 
 =item Str C<$lhs> is one side of the strings to compare.
 
