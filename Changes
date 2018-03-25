@@ -2,6 +2,9 @@ Revision history for Text-Sift4
 
 {{$NEXT}}
 
+0.0.3  2018-03-25T10:29:00+09:00
+    - Add missing semicolon
+
 0.0.2  2018-03-25T10:23:09+09:00
     - Fix typo
 
