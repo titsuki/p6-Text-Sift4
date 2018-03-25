@@ -26,7 +26,7 @@ sub sift4(Str $lhs, Str $rhs, Int :$max-offset = 5 --> Int:D) is export {
             $largest-common-subsequence += $local-common-substring;
             $local-common-substring = 0;
             if $lhs-cursor != $rhs-cursor {
-                $lhs-cursor = $rhs-cursor = ($lhs-cursor, $rhs-cursor).max;
+                $lhs-cursor = $rhs-cursor = max($lhs-cursor, $rhs-cursor);
             }
 
             my $i = 0;
@@ -48,7 +48,7 @@ sub sift4(Str $lhs, Str $rhs, Int :$max-offset = 5 --> Int:D) is export {
         $rhs-cursor++;
     }
     $largest-common-subsequence += $local-common-substring;
-    ($lhs-len, $rhs-len).max - $largest-common-subsequence;
+    max($lhs-len, $rhs-len) - $largest-common-subsequence;
 }
 
 =begin pod
