@@ -1,7 +1,5 @@
 {
-  "auth" : [
-    "cpan:TITSUKI"
-  ],
+  "auth" : "cpan:TITSUKI",
   "authors" : [
     "Itsuki Toyota"
   ],
