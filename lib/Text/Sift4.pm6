@@ -1,5 +1,5 @@
 use v6.c;
-unit class Text::Sift4:ver<0.0.4>;
+unit class Text::Sift4:ver<0.0.5>;
 
 sub sift4(Str $lhs, Str $rhs, Int :$max-offset = 5 --> Int:D) is export {
     if not $lhs.defined or $lhs.chars == 0 {
