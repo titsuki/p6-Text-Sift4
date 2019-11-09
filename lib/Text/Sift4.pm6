@@ -94,7 +94,7 @@ Itsuki Toyota <titsuki@cpan.org>
 
 Copyright 2018 Itsuki Toyota
 
-Sift4 Algorithm was invented by Siderite, and is from: https://siderite.blogspot.com/2014/11/super-fast-and-accurate-string-distance.html
+Sift4 Algorithm was invented by Siderite, and is from: https://siderite.dev/blog/super-fast-and-accurate-string-distance.html
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
